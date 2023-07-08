@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>cv</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link">Education</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="container main-container">
+            <section class="section" id="profile">
+                <h1 class="section-title">Daria Zhuravlova</h1>
+                <img src="images/Daria.jpg" alt="my photo" class="my-photo">
+                <p class="text_about">
+                    Hi, I'm Daria. My interests are in Front End Engineering, and I love to create
+                    beautiful and performant products with delightful user experiences.
+                </p>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul>
+                    <li><a href="https://dariazhuravlova.github.io/Profile/" class="link">User Profile</a></li>
+                    <li><a href="https://dariazhuravlova.github.io/Portfolio/" class="link">Portfolio</a></li>
+                </ul>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>GitHub</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <p>Example</p>
+                <code>
+                 const reverseSeq = n => {<br>
+                    let arr = [];<br>
+                    for(i=n; i>0; i--){<br>
+                        arr.push(i);<br>
+                    }<br>
+                    return arr;<br>
+                    };
+                </code>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li><a href="https://discord.com/DariaZhur" class="link">discord</a></li>
+                    <li><a href="https://t.me/dariazhuravleva" class="link">telegram</a></li>
+                </ul>
+            </section>
+               <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+               <p>I graduated from ZGIA Faculty of Civil Engineering</p>
+               <p>English level A2</p>
+            </section>
+        </main>
+        <footer class="container">
+                <ul class="footer-content">
+                    <li><a href="https://github.com/DariaZhuravlova" class="link">github</a></li>
+                    <li><a href="https://rs.school/js/"><img src="images/rs_school_js.svg" alt="logo RS"></a></li>
+                    <span>2023 &copy</span>
+                </ul>
+        </footer>
+    </body>
+</html>
